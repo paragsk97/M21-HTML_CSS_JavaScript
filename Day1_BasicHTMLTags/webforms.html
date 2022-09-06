@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web forms</title>
+    </head>
+    <body>
+        <h1>Facebook Page</h1>
+        <form>
+            <label for="username">Login ID: </label>
+            <input type="text" id="username" placeholder="Username" required>
+            <br>
+            <br>
+            <label for="password">Password: </label>
+            <input type="text" id="password" placeholder="Password" required>
+
+            <p>Gender:</p>
+            <input type="radio" name="gender" id="option1" required>
+            <label for="option1">Male</label>
+            <br>
+            <input type="radio" name="gender" id="option2" required>
+            <label for="option2">Female</label>
+            <br>
+            <br>
+            <label for="security">Security question</label>
+            <select name="security" id="security">
+                <option value = "question1">Which is your favourite movie ?</option>
+                <option value = "question2">Which is your favourite place to travel ?</option>
+                <option value = "question3">What's your nickanme ?</option>
+            </select>
+            <br>
+            <br>
+            <label for="answer">Write your answer here :</label>
+            <input type="text" id="answer" required>
+            <br>
+            <br>
+            <label for="bio">Your bio :</label>
+            <br>
+            <textarea name="bio" id="bio" cols="20" rows="10" placeholder="Write your bio"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
