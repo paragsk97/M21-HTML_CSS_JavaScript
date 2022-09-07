@@ -1,0 +1,28 @@
+p 
+{
+    color : blue;
+    background-color: aquamarine;
+    text-decoration: wavy ;
+    text-align: left;
+    letter-spacing: 5px;
+    word-wrap: inherit ;
+}
+label 
+{
+    color : chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border : 4px outset purple;
+}
+h1
+{
+    color:palegreen;
+    background-color: rgb(rgb(255,0,234),green,blue);
+    text-shadow: 5px 5px lightcoral;
+}
+
+*
+{
+    color : chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border : 4px outset purple;
+}

@@ -1,0 +1,28 @@
+h1
+{
+    color: darkgreen;
+    list-style-type:decimal;
+    text-align: center;
+}
+li
+{
+    color: red;
+}
+a
+{
+    color: chocolate;
+}
+p
+{
+    color: tomato;
+    text-align: center;
+}
+h2
+{
+    color: orangered;
+}
+*
+{
+    border: 4px outset grey ;
+}
+
